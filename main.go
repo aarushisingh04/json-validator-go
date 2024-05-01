@@ -29,7 +29,7 @@ func validateJSON(filePath string) error {
 }
 
 func main() {
-	jsonFilePath := "example.json"
+	jsonFilePath := "check.json"
 	err := validateJSON(jsonFilePath)
 	if err != nil {
 		fmt.Println("Error:", err)
